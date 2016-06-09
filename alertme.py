@@ -5,10 +5,10 @@ import urllib.request
 import unicodedata
 
 
-# Alert For List
+# Watch For List
 watchlist = []
 
-# Month Url
+# Month Url (
 monthurl = "http://www.salzaismyah.bg/bg/playbill-calendar/2016-07"
 
 # SMTP
@@ -60,7 +60,6 @@ def normalize_caseless(text):
 
 def caseless_equal(left, right):
     return normalize_caseless(left) == normalize_caseless(right)
-
 
 
 # Start me up...
